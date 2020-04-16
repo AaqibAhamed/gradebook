@@ -5,11 +5,12 @@ namespace GradeBook
 {
     class Book
     {
-        List<double> grades;
+       // List<double> grades;
         
-        public void AddGrade(double grade)
+       /* public void AddGrade(double grade)
         {
            grades.Add(grade);
         }
+        */
     }
 }
