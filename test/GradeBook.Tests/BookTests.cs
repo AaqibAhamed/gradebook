@@ -11,11 +11,22 @@ namespace GradeBook.Tests
             //arrange
            var book = new Book("");
 
-           book.AddGrade(85.7);
-           book.AddGrade(72.5);
+           book.AddGrade(89.1);
+           book.AddGrade(90.5);
+           book.AddGrade(77.3);
 
            //actual
-           book.ShowStatistics();
+           var result = book.GetStatistics();
+
+
+            //Assert
+
+            Assert.Equal(85.6, result.Average,1);//getting average in 1 decimal place 
+            Assert.Equal(90.5, result.High);
+            Assert.Equal(77.3, result.Low);
+
+           
+            
 
 
 

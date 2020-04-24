@@ -94,3 +94,6 @@ I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\obj\Deb
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.dll
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.pdb
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.genruntimeconfig.cache
+I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.exe
+I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.dll
+I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.pdb
