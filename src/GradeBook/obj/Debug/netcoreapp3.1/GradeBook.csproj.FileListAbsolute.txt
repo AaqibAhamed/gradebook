@@ -21,3 +21,16 @@ I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\src\GradeBook\obj\Debug\netc
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.exe
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csproj.CoreCompileInputs.cache
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache

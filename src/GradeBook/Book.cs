@@ -15,6 +15,7 @@ namespace GradeBook
             Name = name;
         }
 
+      
         public void AddGrade(double grade)
         {
             grades.Add(grade);

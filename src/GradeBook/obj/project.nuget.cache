@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fDF8erMvMxqNGVeCkDRMA4iIbsCqzQKmGG97E0ZTMhZM6E0dKnGIC+pUagRlQ8ld19TlZhqTEeU8wdVj28U8dA==",
+  "dgSpecHash": "QJaMTQBuCLCXC3LTLw81PQLYKG0pILlwu6+pgNSenfj8nvCgZjAGRy3TE47FixmlVJ1PBXaBgCZhbmoFandiMQ==",
   "success": true,
-  "projectFilePath": "I:\\Coding Works\\.NET Dev\\ASP.NET Projects\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+  "projectFilePath": "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
