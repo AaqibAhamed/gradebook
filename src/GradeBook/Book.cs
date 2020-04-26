@@ -39,7 +39,6 @@ namespace GradeBook
 
         }
 
-
         public void AddGrade(double grade)
         {
             if (grade <= 100 && grade >= 0)
@@ -72,16 +71,16 @@ namespace GradeBook
 
             switch (result.Average)
             {
-                case var d when d >= 75:
+                case var d when d >= 75.0:
                     result.Letter = 'A';
                     break;
-                case var d when d >= 65:
+                case var d when d >= 65.0:
                     result.Letter = 'B';
                     break;
-                case var d when d >= 50:
+                case var d when d >= 50.0:
                     result.Letter = 'C';
                     break;
-                case var d when d >= 40:
+                case var d when d >= 40.0:
                     result.Letter = 'A';
                     break;
                 default:
