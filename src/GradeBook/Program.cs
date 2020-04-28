@@ -13,6 +13,10 @@ namespace GradeBook
             //book.AddGrade(75.4);
             //book.AddGrade(96.2);
             //book.GetStatistics();
+            book.GradeAdded += OnGradeAdded;
+            book.GradeAdded -= OnGradeAdded;//-
+            book.GradeAdded += OnGradeAdded;//+ so only will be work
+           
 
             while(true)
             {
@@ -50,10 +54,19 @@ namespace GradeBook
 
             var stat = book.GetStatistics();
 
+            Console.WriteLine();
+            Console.WriteLine($"The Book Category{Book.CATEGORY}");
+            Console.WriteLine($"The Book Name is {book.Name}");
             Console.WriteLine($"The Highest Grade is {stat.High}");
             Console.WriteLine($"The Lowest Grade is {stat.Low}");
             Console.WriteLine($"The Average Grade is {stat.Average:N3}");
             Console.WriteLine($"The Final Grade is {stat.Letter}");
+
+        }
+
+        static void OnGradeAdded(object sender ,EventArgs eventArgs)
+        {
+            Console.WriteLine("A grade was added to Grade Book ");
 
         }
     }

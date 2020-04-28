@@ -15,7 +15,7 @@ namespace GradeBook.Tests
             book.AddGrade(90.5);
             book.AddGrade(77.3);
             book.AddGrade(85.3);//without this value also same average will come -maths magic 
-            book.AddGrade(1001.1);//not going to include in average calaulation
+           // book.AddGrade(1001.1);//not going to include in average calaulation
 
             //actual
             var result = book.GetStatistics();

@@ -5,8 +5,35 @@ using Xunit;
 
 namespace GradeBook.Tests
 {
+    public delegate string WriteLogDelegate(string message);
     public class TypeTest
     {
+        int count = 0;
+        [Fact]
+        public void WriteLogDelegateCanLogManyMethod()
+        {
+            WriteLogDelegate log = writelogMethod;
+
+            log += writelogMethod;
+            log += countLogMethod;
+
+            var result = log("Wel Come !");
+            Assert.Equal(3, count);
+        }
+
+        private string countLogMethod(string message)
+        {
+            count++;
+            return message.ToUpper();
+        }
+
+        private string writelogMethod(string message)
+        {
+            count++;
+            return message;
+
+        }
+
         [Fact]
         public void StringBehaveLikeValueType()
         {
@@ -84,7 +111,7 @@ namespace GradeBook.Tests
 
         }
 
-        private void GetBookSetName(Book book, string name)
+        private void GetBookSetName( Book book, string name)
         {
             book = new Book(name);
         }

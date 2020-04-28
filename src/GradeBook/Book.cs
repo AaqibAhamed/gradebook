@@ -1,13 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata;
 using System.Text;
 
 namespace GradeBook
 {
+    public delegate void GradeAddedDelegate(object sender, EventArgs eventArgs);
+
     public class Book
     {
         private List<double> grades;
-        public string Name;
+
+        public string Name { get; set; }
+
+        public const string CATEGORY = "Programming";
 
         public Book(string name)
         {
@@ -15,7 +21,7 @@ namespace GradeBook
             Name = name;
         }
 
-        public void AddLetterGrade(char letter)
+        public void AddGrade(char letter)
         {
             switch (letter)
             {
@@ -39,17 +45,23 @@ namespace GradeBook
 
         }
 
+        public event GradeAddedDelegate GradeAdded;
+
         public void AddGrade(double grade)
         {
             if (grade <= 100 && grade >= 0)
-            {
+            {               
                 grades.Add(grade);
+                if (GradeAdded != null)
+                { 
+                    GradeAdded(this, new EventArgs());
+                } 
             }
 
             else
             {
                 //Console.WriteLine("Invalid Grade !");
-               throw new ArgumentException($"Invalid {nameof(grade)} ");
+                throw new ArgumentException($"Invalid {nameof(grade)} ");
             }
 
         }
