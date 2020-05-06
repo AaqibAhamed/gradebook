@@ -17,10 +17,11 @@ namespace GradeBook
             book.GradeAdded -= OnGradeAdded;//-
             book.GradeAdded += OnGradeAdded;//+ so only will be work
 
-            
+
             EnterGrades(book);
 
             var stat = book.GetStatistics();
+            
 
             Console.WriteLine();
             Console.WriteLine($"The Book Category{InMemoryBook.CATEGORY}");
@@ -32,7 +33,7 @@ namespace GradeBook
 
         }
 
-        private static void EnterGrades(InMemoryBook book)
+        private static void EnterGrades(IBook book)
         {
             while (true)
             {
