@@ -93,9 +93,9 @@ namespace GradeBook.Tests
 
         }
 
-        private void GetBookSetName(ref Book book, string name)
+        private void GetBookSetName(ref InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
 
         }
 
@@ -111,9 +111,9 @@ namespace GradeBook.Tests
 
         }
 
-        private void GetBookSetName( Book book, string name)
+        private void GetBookSetName( InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
         }
 
         [Fact]
@@ -130,15 +130,15 @@ namespace GradeBook.Tests
 
         }
 
-        private void SetBookName(Book book, string name)
+        private void SetBookName(InMemoryBook book, string name)
         {
             book.Name = name;
 
         }
 
-        Book GetBook(string name)
+        InMemoryBook GetBook(string name)
         {
-            return new Book(name);
+            return new InMemoryBook(name);
         }
 
         [Fact]
