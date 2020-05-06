@@ -8,11 +8,8 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            var book = new InMemoryBook("Aaqib's Grade Book");
-            //book.AddGrade(84.5);
-            //book.AddGrade(75.4);
-            //book.AddGrade(96.2);
-            //book.GetStatistics();
+            IBook book = new DiskBook("Aaqib's Grade Book");
+            
             book.GradeAdded += OnGradeAdded;
             book.GradeAdded -= OnGradeAdded;//-
             book.GradeAdded += OnGradeAdded;//+ so only will be work
