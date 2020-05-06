@@ -59,7 +59,7 @@ namespace GradeBook
                 }
                 finally
                 {
-                    Console.WriteLine("");
+                    Console.WriteLine("***");
                 }
             }
         }
@@ -67,7 +67,6 @@ namespace GradeBook
         static void OnGradeAdded(object sender ,EventArgs eventArgs)
         {
             Console.WriteLine("A grade was added to Grade Book ");
-
         }
     }
 }
