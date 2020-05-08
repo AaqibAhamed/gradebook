@@ -33,4 +33,3 @@ I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netco
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache
-I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
