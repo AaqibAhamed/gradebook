@@ -97,10 +97,10 @@ I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\obj\Deb
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.exe
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.dll
 I:\Coding Works\.NET Dev\ASP.NET Projects\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.pdb
+I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.exe
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.exe
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.Tests.deps.json
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.Tests.runtimeconfig.json
 I:\Coding Works\.NET Dev\C# Fundamentals\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.Tests.runtimeconfig.dev.json

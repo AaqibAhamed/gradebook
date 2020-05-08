@@ -11,8 +11,8 @@ namespace GradeBook
             IBook book = new DiskBook("Aaqib's Grade Book");
             
             book.GradeAdded += OnGradeAdded;
-            book.GradeAdded -= OnGradeAdded;//-
-            book.GradeAdded += OnGradeAdded;//+ so only will be work
+            //book.GradeAdded -= OnGradeAdded;//-
+            //book.GradeAdded += OnGradeAdded;//+ so only will be work
 
 
             EnterGrades(book);
@@ -20,13 +20,13 @@ namespace GradeBook
             var stat = book.GetStatistics();
             
 
-            Console.WriteLine();
-            Console.WriteLine($"The Book Category{InMemoryBook.CATEGORY}");
+            Console.WriteLine();           
             Console.WriteLine($"The Book Name is {book.Name}");
             Console.WriteLine($"The Highest Grade is {stat.High}");
             Console.WriteLine($"The Lowest Grade is {stat.Low}");
             Console.WriteLine($"The Average Grade is {stat.Average:N3}");
             Console.WriteLine($"The Final Grade is {stat.Letter}");
+           // Console.WriteLine($"The Book Category{InMemoryBook.CATEGORY}");
 
         }
 

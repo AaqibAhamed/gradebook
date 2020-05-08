@@ -19,12 +19,11 @@ namespace GradeBook
     }
     public interface IBook
     {
-        void AddGrade(double grade);
         string Name { get; }
-
+        void AddGrade(double grade);
+        
         event GradeAddedDelegate GradeAdded;
         Statistics GetStatistics();
-
     }
 
     public abstract class Book : NamedObject, IBook
@@ -33,12 +32,11 @@ namespace GradeBook
         {
         }
 
-        public abstract event GradeAddedDelegate GradeAdded;
-
         public abstract void AddGrade(double grade);
 
-        public abstract Statistics GetStatistics();
+        public abstract event GradeAddedDelegate GradeAdded;
 
+        public abstract Statistics GetStatistics();
     }
 
     public class DiskBook : Book
@@ -53,23 +51,41 @@ namespace GradeBook
         {
             using (var writer = File.AppendText($"{Name}.txt"))
             {
-                writer.WriteLine(grade);
-                if(GradeAdded != null)
+                if(grade <=100 && grade>=0)
                 {
-                    GradeAdded(this, new EventArgs());
+                    writer.WriteLine(grade);
+                    if (GradeAdded != null)
+                    {
+                        GradeAdded(this, new EventArgs());
+                    }
                 }
+              
             }
            
         }
 
         public override Statistics GetStatistics()
         {
-            throw new NotImplementedException();
+            var result = new Statistics();
+
+            using(var reader = File.OpenText($"{Name}.txt"))
+            {
+                var line = reader.ReadLine();
+                while(line != null)
+                {
+                    var number = double.Parse(line);
+                    result.Add(number);
+                    line = reader.ReadLine();
+                }
+            }
+
+            return result;            
         }
     }
 
     public class InMemoryBook : Book
     {
+        public const string CATEGORY = "Programming";
 
         public InMemoryBook(string name) : base(name)
         {
@@ -77,6 +93,7 @@ namespace GradeBook
             Name = name;
         }
 
+        //Have to implement ...
         public void AddGrade(char letter)
         {
             switch (letter)
@@ -115,8 +132,7 @@ namespace GradeBook
             }
 
             else
-            {
-                //Console.WriteLine("Invalid Grade !");
+            {                
                 throw new ArgumentException($"Invalid {nameof(grade)} ");
             }
 
@@ -124,46 +140,18 @@ namespace GradeBook
 
         public override Statistics GetStatistics()
         {
-            var result = new Statistics();
-            result.Average = 0.0;
-            result.High = double.MinValue;
-            result.Low = double.MaxValue;
+            var result = new Statistics();          
 
             foreach (var grade in grades)
             {
-                result.High = Math.Max(grade, result.High);
-                result.Low = Math.Min(grade, result.Low);
-                result.Average += grade;
-            }
-
-            result.Average /= grades.Count;
-
-            switch (result.Average)
-            {
-                case var d when d >= 75.0:
-                    result.Letter = 'A';
-                    break;
-                case var d when d >= 65.0:
-                    result.Letter = 'B';
-                    break;
-                case var d when d >= 50.0:
-                    result.Letter = 'C';
-                    break;
-                case var d when d >= 40.0:
-                    result.Letter = 'A';
-                    break;
-                default:
-                    result.Letter = 'F';
-                    break;
-
+                result.Add(grade);              
             }
 
             return result;
-
         }
 
         private List<double> grades;
 
-        public const string CATEGORY = "Programming";
+        
     }
 }
