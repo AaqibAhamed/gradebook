@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "projectUniqueName": "I:\\You Tube Channel\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
       "projectName": "GradeBook",
-      "projectPath": "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "projectPath": "I:\\You Tube Channel\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\src\\GradeBook\\obj\\",
+      "outputPath": "I:\\You Tube Channel\\C# Fundamentals\\gradebook\\src\\GradeBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -6598,11 +6598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectUniqueName": "I:\\You Tube Channel\\C# Fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectPath": "I:\\You Tube Channel\\C# Fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\test\\GradeBook.Tests\\obj\\",
+      "outputPath": "I:\\You Tube Channel\\C# Fundamentals\\gradebook\\test\\GradeBook.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6622,8 +6622,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-              "projectPath": "I:\\Coding Works\\.NET Dev\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+            "I:\\You Tube Channel\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "I:\\You Tube Channel\\C# Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }
